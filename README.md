@@ -1,24 +1,12 @@
-# screen-recorder
-A small MERN web app that records your browser tab or window along with microphone audio.
-Users can start/stop recording,preview that result, download the video, and upload it to a backend with SQL storage. Here The Maximum recording Length is 3 minutes.
-**FEATURES**
-**FRONTEND(React)**
-*Record Screen 
-*mic audio
-*Preview recording before saving
-*Download as .Webm
-*Upload recording to backend
-**BACKEND(Node,Express,SQL)**
-*POST/api/Recordings
-*GET/api/Recordings
-*GET/api/recordings/:id 
-*store metadata in SQL
-**TECK STACK**
-*FrontEnd:React(Vite)
-*Backend:Node.js+Express
-*DataBase:SQL
-styling:CSS
-**APIs Used**
-*navigator.mediaDevices.getDisplayMedia()
-*navigator.mediaDevices.getUserMedia()
-MediaRecorder
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
