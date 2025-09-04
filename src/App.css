@@ -1,0 +1,90 @@
+body {
+}
+
+
+.controls {
+margin: 20px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+
+
+.btn {
+padding: 10px 18px;
+border: none;
+border-radius: 6px;
+font-weight: bold;
+cursor: pointer;
+color: white;
+transition: transform 0.2s ease;
+}
+
+
+.btn:hover {
+transform: scale(1.05);
+}
+
+
+.start {
+background: #2e7d32;
+}
+
+
+.stop {
+background: #c62828;
+}
+
+
+.download {
+background: #1565c0;
+margin-top: 10px;
+}
+
+
+.timer {
+font-size: 16px;
+font-weight: bold;
+color: #333;
+}
+
+
+.progress-bar {
+height: 8px;
+background: #ddd;
+border-radius: 4px;
+overflow: hidden;
+margin: 10px 0 20px;
+}
+
+
+.progress-bar > div {
+height: 100%;
+background: linear-gradient(90deg, #4a148c, #7b1fa2);
+}
+
+
+.preview video {
+width: 100%;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+
+
+.error-box {
+background: #ffcdd2;
+color: #b71c1c;
+padding: 10px;
+border-radius: 6px;
+margin: 10px 0;
+}
+
+
+.warn-box {
+background: #fff9c4;
+color: #f57f17;
+padding: 10px;
+border-radius: 6px;
+margin: 10px 0;
+}
